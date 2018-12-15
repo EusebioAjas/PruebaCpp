@@ -64,7 +64,7 @@ void imprimir(int n){
 		cout<<"Numero de vuelo:"<<vuelos[i].num<<endl;
 		cout<<"Hora de salida:"<<vuelos[i].salida.hr<<":"<<vuelos[i].salida.min<<endl;
 		cout<<"Hora de llegada:"<<vuelos[i].llegada.hr<<":"<<vuelos[i].llegada.min<<endl;
-		cout<<"Duracion del vuelo: "<<vecduraciones[i].hrs<<"Horas"<<" "<<vecduraciones[i].mins<<"Minutos";
+		cout<<"Duracion del vuelo: "<<vecduraciones[i].hrs<<" Horas  "<<vecduraciones[i].mins<<" Minutos"<<endl;
 		
 	}
 }
