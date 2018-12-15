@@ -14,6 +14,7 @@ struct hora{
 	int min;
 };
 
+//LA ESTRUCTURA VUELO CONTIENE A LK ESTRUCTURA HORA PARA SUS ATRIBUTOS DE HORA DE SALIDA Y HORA DE LLEGADA 
 struct vuelo{
 	int num;
 	hora salida;
@@ -52,6 +53,8 @@ void leer (int n){
 		
 	}
 }
+
+//EN LA FUNCION IMPRIMIR SE CALCULA LA DURACION DEL VUELO, PRIMERO SE ALMACENA EN UN VECTOR DE ESTRUCRAS PARA LUEGO IMPRIMIRSE EN UN CICLO
 void imprimir(int n){
 	
 	for (int i=0;i<n;i++){
